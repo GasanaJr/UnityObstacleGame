@@ -6,6 +6,7 @@ public class FallScript : MonoBehaviour
 {
     public Rigidbody rb;
     MeshRenderer render;
+    public float time;
     private void Start()
     {
        rb =  GetComponent<Rigidbody>();
@@ -16,7 +17,7 @@ public class FallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= 3)
+        if (Time.time >= time)
         {
             render.enabled = true;
             rb.useGravity = true;
