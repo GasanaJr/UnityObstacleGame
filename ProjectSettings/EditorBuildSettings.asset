@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Obstacle Game.unity
+    guid: 0ff45d52289ac4961aa3d3bda5fa9796
   m_configObjects: {}
